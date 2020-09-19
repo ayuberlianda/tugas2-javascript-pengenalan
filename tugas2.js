@@ -1,17 +1,17 @@
 var nama = "Ayu Berlianda"
-var NIP = 201902
+var number = 201902
 var statusMenikah = true
-var statusAnak = false
-var data = ["Wanita","DPMPTSP","Bekerja","Drakor"]
-var Umur = "29"
-var absen = "ada"
-absen = null
+var dataAyu = ["Wanita","DPMPTSP","Drakor"]
+var dataLengkap = {firtsName:"Ayu", lastName:"Berlianda", umur:"29"}
 
+console.log("variabel", nama, "datatype ", typeof nama)
+console.log("variabel", number, "datatype ", typeof number)
+console.log("variabel", statusMenikah, "datatype", typeof statusMenikah)
+console.log("variabel", dataAyu, "datatype", typeof dataAyu)
+console.log("variabel", dataLengkap.firtsName, dataLengkap.lastName, dataLengkap.umur, "datatype", typeof dataLengkap )
 
-console.log(nama)
-console.log(NIP)
-console.log(statusMenikah)
-console.log(statusAnak)
-console.log(data [1])
-console.log(Umur)
-console.log(absen)
+dataAyu = null
+console.log("variabel", dataAyu, "datatype", typeof dataAyu)
+
+dataLengkap = undefined
+console.log("variabel", dataLengkap, "datatype", typeof dataLengkap)
